@@ -4,3 +4,6 @@ git status
 git commit -m "message"  (-am to commit changes without add)
 git push
 git pull
+git log (q or z to quit)
+git branch
+git checkout -b style (-b creates new branch)
