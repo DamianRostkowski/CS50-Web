@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://kit.fontawesome.com/1e8e5af500.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Search</title>
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Normal search</a></li>
+            <li><a href="advacedSearch.html">Advanced search</a></li>
+        </ul>
+        <div style="clear: both;"></div>
+        <div class="container">
+            <h1>Google</h1>
+            <h2 class="googleGraphic">Graphic</h2>
+            <form action="https://www.google.com/search">
+                <input type="hidden" name="sclient" value="img">
+                <input type="hidden" name="tbm" value="isch">
+                <div class="searchWrapper">
+                    <input  class="searchbar" type="text" name="q">
+                    <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+                </div>
+                <button class="searchButton" type="submit">Google Search</button>
+                <button class="searchButton" type="button">I’m Feeling Lucky</button>
+            </form>
+        </div>
+    </body>
+</html>

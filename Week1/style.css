@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #222;
+    padding: 20px;
+}
+h1{
+    color: white;
+    font-size: 120px;
+    background-color: rgba(70, 70, 70, 0);
+}
+.input-group {
+    margin: auto;
+    text-align: center;
+}
+.searchWrapper {
+    position: relative;
+    width: 800px;
+    margin: auto;
+}
+
+.searchIcon{
+    position: absolute;
+    left: 10px;
+    font-size: 18px;
+    top: 8px;
+    color: #ddd;
+}
+.searchbar{
+    color: white;
+    font-size: 18px;
+    width: 800px;
+    line-height: 200%;
+    padding: 0 40px;
+    border-radius: 55px;
+    background-color: #222;
+    border: 1px solid #444;
+}
+.searchbar:hover{
+    border: 1px solid #444;
+    background-color: #444;
+}
+.searchbar:focus{
+    border: 1px solid #444;
+    background-color: #444;
+    outline: none;
+}
+.container{
+    margin-top: 200px;
+    text-align: center;
+}
+.googleGraphic{
+    top: 42%;
+    left: 55%;
+    position: absolute;
+    color: royalblue;
+    text-align: center;
+}
+
+ul{
+    float: right;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.searchButton{
+    margin-top: 20px;
+    line-height: 300%;
+    padding: 0 20px;
+    background-color: rgb(80,80,80);
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgb(80,80,80);
+}
+
+.searchButton:hover{
+    border: 1px solid white;
+}
+img{
+    height: 100px;
+}
+.advsearch{
+    font-weight: normal;
+    color: crimson;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.advacedContainer p{
+    color: white;
+    width: 150px;
+    font-size: 20px;
+}
+
+.advacedInputs{
+    width: 600px;
+}
+
+.inputPart{
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+}
+.inputPart label{
+    color: white;
+    display: block;
+    width: 200px;
+}
+.inputPart input{
+    display: block;
+    outline: none;
+    padding: 3px;
+    padding-left: 10px;
+    line-height: 200%;
+    width: 300px;
+    border: 2px solid white;
+}
+.inputPart input:focus{
+    border: 2px solid rgb(55, 61, 243);
+}
+
+.submit{
+    float: right;
+    padding: 10px;
+    background-color: rgb(64, 110, 248);
+    color: white;
+}
+.submit:hover{
+    background-color: rgb(52, 94, 219);
+}

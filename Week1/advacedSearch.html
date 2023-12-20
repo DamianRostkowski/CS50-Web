@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://kit.fontawesome.com/1e8e5af500.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Search</title>
+    </head>
+    <body>
+        <img src="googleLogo.png" alt="google logo">
+        <ul>
+            <li><a href="imageSearch.html">Image search</a></li>
+            <li><a href="index.html">Normal search</a></li>
+        </ul>
+        <div style="clear: both;"></div>
+        <div class="advacedContainer">
+            <form action="https://www.google.com/search" method="GET">
+                <h2 class="advsearch">Advaced searching</h2>
+                <div class="advacedInputs">
+                    <p>Find pages with...</p>
+                    <div class="inputPart">
+                        <label for="allWords" >all these words:</label>
+                        <input name="as_q" id="allWords"> 
+                    </div>
+                    <div class="inputPart">
+                        <label for="exactWord" >This exact word or phrase:</label>
+                        <input name="as_epq" id="exactWord">
+                    </div>   
+                    <div class="inputPart">
+                        <label for="anyWords" >any of these words:</label>
+                        <input name="as_oq" id="anyWords">
+                    </div>  
+                    <div class="inputPart">
+                        <label for="noneWords" >none of these words:</label>
+                        <input name="as_eq" id="noneWords">  
+                    </div>  
+                    <button type="submit" class="submit">Advaced searching</button> 
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
