@@ -3,3 +3,4 @@ git add <filename>
 git status
 git commit -m "message"  (-am to commit changes without add)
 git push
+git pull
