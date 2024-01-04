@@ -1,0 +1,5 @@
+django-admin startproject PROJECT_NAME - create a new project
+python manage.py runserver
+python manage.py startapp APP_NAME - create a new app 
+after it it is needed to add 'APP_NAME' into INSTALLED_APPS in PROJECT_NAME/settings.py
+you can also add path to PROJECT_NAME/urls.py
